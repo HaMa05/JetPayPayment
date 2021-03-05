@@ -1,0 +1,75 @@
+﻿.complate {
+    height: 300px;
+    width: 60%;
+    background-color: #f1f1f1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .complate .img {
+        position: relative;
+        top: 80px;
+        left: calc(100% - 56%);
+        height: 150px;
+        width: 150px;
+        background-image: url('../../../image/success-payment.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .complate .title {
+        position: relative;
+        top: 100px;
+        left: calc(100% - 60%);
+        width: 350px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+.info {
+    width: 60%;
+    background-color: #f1f1f1;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info-failure {
+    width: 30%;
+    background-color: #f1f1f1;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
+
+.info .info-order {
+    position: absolute;
+    height: 100px;
+    background-color: white;
+  
+}
+
+    .info .info-order p {
+        padding: 20px 0 20px 20px;
+    }
+
+.info .button-order {
+    position: relative;
+}
+
+button {
+    height: 42px;
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid #81a528;
+    outline: none;
+    margin-bottom: 24px;
+    margin-right:20px;
+}
+
+#detail {
+    color: #e5101d;
+    border: 1px solid #e5101d;
+}
